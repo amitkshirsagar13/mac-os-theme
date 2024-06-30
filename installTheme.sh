@@ -58,7 +58,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-
 
 array=( blur-my-shell@aunetx dev-container-manager@devopsnextgenx monitor@astraext.github.io search-light@icedman.github.com
 CoverflowAltTab@palatis.blogspot.com gnome-ui-tune@itstime.tech quick-settings-tweaks@qwreey user-theme@gnome-shell-extensions.gcampax.github.com
-dash-to-dock@micxgx.gmail.com just-perfection-desktop@just-perfection Rounded_Corners@lennart-k )
+dash-to-dock@micxgx.gmail.com just-perfection-desktop@just-perfection Rounded_Corners@lennart-k logomenu@aryan_k )
 
 for i in "${array[@]}"
 do
