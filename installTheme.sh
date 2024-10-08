@@ -47,7 +47,7 @@ rm -rf WhiteSur-gtk-theme
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 cd ~/git/WhiteSur-gtk-theme
 chmod 755 *.sh
-./install.sh -a normal -m -t all -l -c Dark -N stable --normal
+./install.sh -a normal -m -t all -l -c Dark -N stable
 sudo ./tweaks.sh -g
 ./tweaks.sh -F -f default
 sudo flatpak override --filesystem=xdg-config/gtk-4.0
@@ -56,9 +56,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-
 
 # Install Gnome Extensions
 
-array=( blur-my-shell@aunetx dev-container-manager@devopsnextgenx monitor@astraext.github.io search-light@icedman.github.com
-CoverflowAltTab@palatis.blogspot.com gnome-ui-tune@itstime.tech quick-settings-tweaks@qwreey user-theme@gnome-shell-extensions.gcampax.github.com
-dash-to-dock@micxgx.gmail.com just-perfection-desktop@just-perfection Rounded_Corners@lennart-k logomenu@aryan_k )
+array=( blur-my-shell@aunetx dev-container-manager@devopsnextgenx monitor@astraext.github.io search-light@icedman.github.com CoverflowAltTab@palatis.blogspot.com gnome-ui-tune@itstime.tech quick-settings-tweaks@qwreey user-theme@gnome-shell-extensions.gcampax.github.com dash-to-dock@micxgx.gmail.com just-perfection-desktop@just-perfection Rounded_Corners@lennart-k logomenu@aryan_k )
 
 for i in "${array[@]}"
 do
