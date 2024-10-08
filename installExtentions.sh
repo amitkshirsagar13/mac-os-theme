@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Install Gnome Extensions
+
 array=( blur-my-shell@aunetx dev-container-manager@devopsnextgenx monitor@astraext.github.io search-light@icedman.github.com CoverflowAltTab@palatis.blogspot.com gnome-ui-tune@itstime.tech quick-settings-tweaks@qwreey user-theme@gnome-shell-extensions.gcampax.github.com dash-to-dock@micxgx.gmail.com just-perfection-desktop@just-perfection Rounded_Corners@lennart-k )
 # for i in "${array[@]}"
 # do
