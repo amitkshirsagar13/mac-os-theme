@@ -18,7 +18,7 @@ chsh -s $(which zsh)
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 cp -f blob/profile/* ~/
-touch .zdocker .zk8s .wifi
+touch ~/.zdocker ~/.zk8s ~/.wifi
 echo "
 * * * * * ~/bin/zdocker >> /dev/null 2>&1
 * * * * * ~/bin/zk8s >> /dev/null 2>&1
