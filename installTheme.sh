@@ -28,7 +28,7 @@ echo "
 # Install Icons
 echo 'Installing Icons to ~/.icons'
 mkdir -p ~/.icons/
-cp -f blob/icons/* ~/.icons/
+cp -f blob/.icons/* ~/.icons/
 cp -f blob/.local/* ~/.local/
 mkdir -p ~/.conky/
 cp -f blob/.conky/* ~/.conky/
@@ -49,7 +49,7 @@ rm -rf WhiteSur-gtk-theme
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 cd ~/git/WhiteSur-gtk-theme
 chmod 755 *.sh
-./install.sh -a normal -m -t all -l -c Dark -N stable
+./install.sh -o normal -c Dark -a normal -m -t all -l -N stable -HD --shell -i apple -b default -p --black --dialog
 sudo ./tweaks.sh -g
 ./tweaks.sh -F -f default
 sudo flatpak override --filesystem=xdg-config/gtk-4.0

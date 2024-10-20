@@ -14,3 +14,9 @@ tar -xjvf blob.tar.bz2
 ```
 tar -cjvf blob.tar.bz2 blob
 ```
+
+### Theme
+
+```
+./install.sh -o normal -c Dark -a normal -m -t all -l -N stable -HD --shell -i apple -b default -p --black --dialog
+```
