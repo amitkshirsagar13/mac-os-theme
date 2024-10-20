@@ -21,3 +21,8 @@ do
     gnome-extensions enable ${i}
     rm ${EXTENSION_ID}.zip
 done
+
+
+sleep 5
+
+rm *.zip
